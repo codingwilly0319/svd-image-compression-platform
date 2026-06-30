@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% block title %}SVD Image Compression Platform{% endblock %}</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar">
+      <a class="brand" href="{{ url_for('dashboard') if current_user else url_for('login') }}">
+        <img src="{{ url_for('static', filename='sample-preview.png') }}" alt="sample compression preview">
+        <span>SVD Compression</span>
+      </a>
+      {% if current_user %}
+        <nav class="nav-links" aria-label="Main navigation">
+          <a href="{{ url_for('dashboard') }}">Dashboard</a>
+          <a href="{{ url_for('analyze') }}">Compress</a>
+          <a href="{{ url_for('records') }}">Records</a>
+          {% if current_user.role == 'admin' %}
+            <a href="{{ url_for('admin') }}">Admin</a>
+          {% endif %}
+        </nav>
+        <form action="{{ url_for('logout') }}" method="post" class="logout-form">
+          <div class="user-badge">{{ current_user.username }} / {{ current_user.role }}</div>
+          <button type="submit" class="button secondary full">Logout</button>
+        </form>
+      {% endif %}
+    </aside>
+    <main class="content">
+      {% with messages = get_flashed_messages(with_categories=true) %}
+        {% if messages %}
+          <div class="flash-stack">
+            {% for category, message in messages %}
+              <div class="flash {{ category }}">{{ message }}</div>
+            {% endfor %}
+          </div>
+        {% endif %}
+      {% endwith %}
+      {% block content %}{% endblock %}
+    </main>
+  </div>
+</body>
+</html>

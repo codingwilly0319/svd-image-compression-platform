@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% block title %}Compress | SVD Image Compression{% endblock %}
+{% block content %}
+<header class="page-header">
+  <div>
+    <p class="eyebrow">Compress</p>
+    <h1>上傳圖片進行 SVD 壓縮</h1>
+  </div>
+</header>
+
+<section class="two-column">
+  <form class="panel stack-form" method="post" enctype="multipart/form-data">
+    <label>
+      上傳圖片
+      <input type="file" name="image" accept=".ppm,.png,.jpg,.jpeg,image/png,image/jpeg">
+    </label>
+    <p class="help-text">支援 PNG、JPG、PPM。系統會轉成灰階矩陣，使用 SVD 產生多個 rank 的壓縮版本。</p>
+    <button class="button primary" type="submit">開始壓縮</button>
+  </form>
+
+  <form class="panel sample-panel" method="post">
+    <img src="{{ url_for('static', filename='sample-preview.png') }}" alt="sample image">
+    <input type="hidden" name="use_sample" value="1">
+    <h2>範例圖片</h2>
+    <p class="help-text">不用準備圖片也可以先測試 SVD 壓縮流程。</p>
+    <button class="button secondary" type="submit">壓縮範例</button>
+  </form>
+</section>
+{% endblock %}

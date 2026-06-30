@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+{% block title %}Records | SVD Image Compression{% endblock %}
+{% block content %}
+<header class="page-header">
+  <div>
+    <p class="eyebrow">Records</p>
+    <h1>壓縮紀錄</h1>
+  </div>
+  <a class="button primary" href="{{ url_for('analyze') }}">新增壓縮</a>
+</header>
+
+<section class="panel">
+  {% if records %}
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>圖片</th>
+            <th>預設 rank</th>
+            <th>品質分數</th>
+            <th>節省比例</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for record in records %}
+            <tr>
+              <td>{{ record.image_name }}</td>
+              <td>{{ record.result_label }}</td>
+              <td>{{ '%.2f'|format(record.quality_score) }}</td>
+              <td>{{ '%.0f%%'|format(record.features.default_variant.compression_ratio * 100) }}</td>
+              <td><a href="{{ url_for('record_detail', record_id=record.id) }}">查看</a></td>
+            </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  {% else %}
+    <p class="empty-state">目前沒有壓縮紀錄。</p>
+  {% endif %}
+</section>
+{% endblock %}

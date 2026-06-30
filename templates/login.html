@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+{% block title %}Login | SVD Image Compression{% endblock %}
+{% block content %}
+<section class="login-grid">
+  <div class="login-panel">
+    <p class="eyebrow">Linear Algebra Application</p>
+    <h1>SVD 圖像壓縮平台</h1>
+    <form method="post" class="stack-form">
+      <label>
+        帳號
+        <input name="username" placeholder="operator 或 admin" autocomplete="username">
+      </label>
+      <label>
+        密碼
+        <input name="password" type="password" placeholder="請輸入密碼" autocomplete="current-password">
+      </label>
+      <button class="button primary" type="submit">登入平台</button>
+    </form>
+    <div class="account-grid">
+      <span>operator / operator123</span>
+      <span>admin / admin123</span>
+    </div>
+  </div>
+  <div class="preview-panel">
+    <img src="{{ url_for('static', filename='sample-preview.png') }}" alt="sample image compression">
+    <div>
+      <p class="panel-label">Sample</p>
+      <h2>Matrix Compression Flow</h2>
+      <p>image matrix -> SVD -> keep rank k -> reconstruct compressed image</p>
+    </div>
+  </div>
+</section>
+{% endblock %}

@@ -1,0 +1,64 @@
+{% extends "base.html" %}
+{% block title %}Math Logic {{ record.id }} | SVD Image Compression{% endblock %}
+{% block content %}
+<header class="page-header">
+  <div>
+    <p class="eyebrow">SVD Logic</p>
+    <h1>圖像壓縮背後的線性代數</h1>
+  </div>
+  <a class="button secondary" href="{{ url_for('record_detail', record_id=record.id) }}">返回結果</a>
+</header>
+
+<section class="panel">
+  <h2>SVD 分解說明</h2>
+  <p class="help-text large">圖片可表示為像素矩陣 A。透過 SVD 可將矩陣分解為 U、Sigma 與 V^T，並依奇異值大小保留主要影像成分。當系統只取前 k 個奇異值時，即可形成低秩近似矩陣 A_k，用較少資料重建接近原圖的壓縮結果。</p>
+  <div class="logic-steps">
+    <div class="step-card"><span>1</span><strong>圖片矩陣</strong><p>將圖片轉成灰階矩陣 A，每個元素代表像素亮度。</p></div>
+    <div class="step-card"><span>2</span><strong>SVD 分解</strong><p>計算 A = U Sigma V^T。</p></div>
+    <div class="step-card"><span>3</span><strong>保留 Rank k</strong><p>只保留前 k 個最大的奇異值。</p></div>
+    <div class="step-card"><span>4</span><strong>矩陣重建</strong><p>用 A_k = U_k Sigma_k V_k^T 重建圖片。</p></div>
+    <div class="step-card"><span>5</span><strong>品質評估</strong><p>比較壓縮率、RMSE 與保留能量。</p></div>
+  </div>
+</section>
+
+<section class="two-column">
+  <div class="panel">
+    <h2>重建公式</h2>
+    <code class="vector">{{ record.features.formula }}</code>
+    <dl class="feature-list tight">
+      <div><dt>Matrix A</dt><dd>{{ record.features.processed_height }} x {{ record.features.processed_width }}</dd></div>
+      <div><dt>Max Rank</dt><dd>{{ record.features.max_rank }}</dd></div>
+      <div><dt>Pixels</dt><dd>{{ record.features.original_values }}</dd></div>
+    </dl>
+  </div>
+
+  <div class="panel">
+    <h2>前 12 個奇異值</h2>
+    <code class="vector">{{ record.features.singular_values }}</code>
+    <p class="help-text">奇異值越大，代表該方向保存的圖像資訊越重要。</p>
+  </div>
+</section>
+
+<section class="two-column">
+  <div class="panel">
+    <h2>Energy by Rank</h2>
+    <div class="prediction-list">
+      {% for item in record.features.energy_curve %}
+        <div class="prediction-row">
+          <span>Rank {{ item.rank }}</span>
+          <strong>{{ '%.2f%%'|format(item.retained_energy_percent) }}</strong>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+  <div class="panel matrix-panel">
+    <h2>Default Rank Preview Matrix</h2>
+    <p class="help-text">預設壓縮圖縮成 8x8 後的亮度矩陣。數字越大代表越亮。</p>
+    <table class="matrix-table">
+      {% for row in record.features.default_variant.preview_matrix %}
+        <tr>{% for value in row %}<td>{{ value }}</td>{% endfor %}</tr>
+      {% endfor %}
+    </table>
+  </div>
+</section>
+{% endblock %}

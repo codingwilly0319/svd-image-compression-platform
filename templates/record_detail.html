@@ -1,0 +1,57 @@
+{% extends "base.html" %}
+{% block title %}Record {{ record.id }} | SVD Image Compression{% endblock %}
+{% block content %}
+<header class="page-header">
+  <div>
+    <p class="eyebrow">Record {{ record.id }}</p>
+    <h1>{{ record.image_name }}</h1>
+  </div>
+  <a class="button secondary" href="{{ url_for('records') }}">返回紀錄</a>
+</header>
+
+<section class="detail-grid">
+  <div class="panel image-panel">
+    {% if image_url %}
+      <img src="{{ image_url }}" alt="original image preview">
+    {% else %}
+      <div class="no-preview">No browser preview</div>
+    {% endif %}
+    <dl class="feature-list">
+      <div><dt>Original</dt><dd>{{ record.features.original_width }} x {{ record.features.original_height }}</dd></div>
+      <div><dt>Processed</dt><dd>{{ record.features.processed_width }} x {{ record.features.processed_height }}</dd></div>
+      <div><dt>Max Rank</dt><dd>{{ record.features.max_rank }}</dd></div>
+    </dl>
+  </div>
+
+  <div class="panel">
+    <h2>壓縮摘要</h2>
+    <dl class="feature-list tight">
+      <div><dt>方法</dt><dd>{{ record.features.method }}</dd></div>
+      <div><dt>預設</dt><dd>{{ record.result_label }}</dd></div>
+      <div><dt>品質</dt><dd>{{ '%.2f'|format(record.quality_score) }}</dd></div>
+      <div><dt>節省</dt><dd>{{ '%.0f%%'|format(record.features.default_variant.compression_ratio * 100) }}</dd></div>
+      <div><dt>RMSE</dt><dd>{{ record.features.default_variant.rmse }}</dd></div>
+    </dl>
+    <p class="help-text">Rank 越小，保存資料越少，圖片越模糊；Rank 越大，圖片越接近原圖，但壓縮效果較低。</p>
+    <a class="button secondary" href="{{ url_for('math_detail', record_id=record.id) }}">查看線性代數邏輯</a>
+  </div>
+</section>
+
+<section class="panel">
+  <h2>不同 Rank 的壓縮結果</h2>
+  <div class="variant-grid">
+    {% for variant in record.features.variants %}
+      <article class="variant-card">
+        <img src="{{ url_for('uploaded_file', filename=variant.filename) }}" alt="rank {{ variant.rank }} compressed image">
+        <h3>Rank {{ variant.rank }}</h3>
+        <dl class="feature-list tight">
+          <div><dt>節省</dt><dd>{{ '%.0f%%'|format(variant.compression_ratio * 100) }}</dd></div>
+          <div><dt>品質</dt><dd>{{ '%.2f'|format(variant.quality_score) }}</dd></div>
+          <div><dt>RMSE</dt><dd>{{ variant.rmse }}</dd></div>
+          <div><dt>能量</dt><dd>{{ '%.2f%%'|format(variant.retained_energy_percent) }}</dd></div>
+        </dl>
+      </article>
+    {% endfor %}
+  </div>
+</section>
+{% endblock %}

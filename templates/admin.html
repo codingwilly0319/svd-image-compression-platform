@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% block title %}Admin | SVD Image Compression{% endblock %}
+{% block content %}
+<header class="page-header">
+  <div>
+    <p class="eyebrow">Admin</p>
+    <h1>平台統計</h1>
+  </div>
+</header>
+
+<section class="metric-grid">
+  <div class="metric-card"><span>Total</span><strong>{{ summary.total_records }}</strong></div>
+  <div class="metric-card"><span>Processed</span><strong>{{ summary.processed_records }}</strong></div>
+  <div class="metric-card"><span>Avg Saved</span><strong>{{ '%.0f%%'|format(summary.average_compression_ratio * 100) }}</strong></div>
+  <div class="metric-card"><span>Avg RMSE</span><strong>{{ '%.2f'|format(summary.average_error) }}</strong></div>
+</section>
+
+<section class="panel">
+  <h2>統計說明</h2>
+  <p class="help-text">後台統計聚焦於壓縮任務本身：紀錄數、平均壓縮比例、平均重建誤差與平均品質分數。</p>
+</section>
+{% endblock %}

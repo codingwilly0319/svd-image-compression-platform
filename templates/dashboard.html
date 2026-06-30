@@ -1,0 +1,52 @@
+{% extends "base.html" %}
+{% block title %}Dashboard | SVD Image Compression{% endblock %}
+{% block content %}
+<header class="page-header">
+  <div>
+    <p class="eyebrow">Dashboard</p>
+    <h1>SVD 圖像壓縮總覽</h1>
+  </div>
+  <a class="button primary" href="{{ url_for('analyze') }}">新增壓縮</a>
+</header>
+
+<section class="metric-grid">
+  <div class="metric-card"><span>Total</span><strong>{{ summary.total_records }}</strong></div>
+  <div class="metric-card"><span>Avg Quality</span><strong>{{ '%.2f'|format(summary.average_quality_score) }}</strong></div>
+  <div class="metric-card"><span>Avg Saved</span><strong>{{ '%.0f%%'|format(summary.average_compression_ratio * 100) }}</strong></div>
+  <div class="metric-card"><span>Avg RMSE</span><strong>{{ '%.2f'|format(summary.average_error) }}</strong></div>
+</section>
+
+<section class="two-column">
+  <div class="panel">
+    <div class="section-heading">
+      <h2>最近紀錄</h2>
+      <a href="{{ url_for('records') }}">全部紀錄</a>
+    </div>
+    {% if records %}
+      <div class="record-list">
+        {% for record in records %}
+          <a class="record-row" href="{{ url_for('record_detail', record_id=record.id) }}">
+            <span>{{ record.image_name }}</span>
+            <strong>{{ record.result_label }}</strong>
+            <em>{{ '%.2f'|format(record.quality_score) }}</em>
+          </a>
+        {% endfor %}
+      </div>
+    {% else %}
+      <p class="empty-state">目前沒有壓縮紀錄。</p>
+    {% endif %}
+  </div>
+
+  <div class="panel sample-panel">
+    <img src="{{ url_for('static', filename='sample-preview.png') }}" alt="sample image compression">
+    <div class="section-heading">
+      <h2>SVD 核心</h2>
+    </div>
+    <dl class="feature-list">
+      <div><dt>Input</dt><dd>grayscale image matrix A</dd></div>
+      <div><dt>Factorization</dt><dd>A = U Sigma V^T</dd></div>
+      <div><dt>Output</dt><dd>rank-k reconstructed image</dd></div>
+    </dl>
+  </div>
+</section>
+{% endblock %}

@@ -1,0 +1,1786 @@
+{
+  "records": [
+    {
+      "id": "1ce8812c",
+      "image_name": "2991979e-S__17760258.jpg",
+      "result_label": "Rank 15",
+      "quality_score": 0.9903,
+      "variants": [
+        {
+          "rank": 5,
+          "filename": "compressed-8acccee3-rank-5.png",
+          "retained_values": 3155,
+          "storage_percent": 3.25,
+          "compression_ratio": 0.9675,
+          "mean_absolute_error": 1.973,
+          "rmse": 4.607,
+          "quality_score": 0.9819,
+          "retained_energy_percent": 99.92,
+          "preview_matrix": [
+            [
+              7,
+              7,
+              7,
+              7,
+              7,
+              7,
+              7,
+              7
+            ],
+            [
+              7,
+              7,
+              7,
+              7,
+              7,
+              7,
+              7,
+              7
+            ],
+            [
+              7,
+              7,
+              7,
+              7,
+              7,
+              7,
+              7,
+              7
+            ],
+            [
+              5,
+              5,
+              5,
+              5,
+              6,
+              6,
+              6,
+              7
+            ],
+            [
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              6,
+              7
+            ],
+            [
+              4,
+              5,
+              5,
+              5,
+              5,
+              5,
+              6,
+              6
+            ],
+            [
+              4,
+              4,
+              4,
+              4,
+              5,
+              5,
+              5,
+              6
+            ],
+            [
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              5,
+              6
+            ]
+          ]
+        },
+        {
+          "rank": 15,
+          "filename": "compressed-8acccee3-rank-15.png",
+          "retained_values": 9465,
+          "storage_percent": 9.74,
+          "compression_ratio": 0.9026,
+          "mean_absolute_error": 1.395,
+          "rmse": 2.478,
+          "quality_score": 0.9903,
+          "retained_energy_percent": 99.98,
+          "preview_matrix": [
+            [
+              7,
+              7,
+              7,
+              7,
+              7,
+              7,
+              7,
+              7
+            ],
+            [
+              7,
+              7,
+              7,
+              7,
+              7,
+              7,
+              7,
+              7
+            ],
+            [
+              7,
+              7,
+              7,
+              7,
+              7,
+              7,
+              7,
+              7
+            ],
+            [
+              5,
+              5,
+              5,
+              5,
+              6,
+              6,
+              6,
+              7
+            ],
+            [
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              6,
+              7
+            ],
+            [
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              6,
+              6
+            ],
+            [
+              4,
+              4,
+              4,
+              4,
+              5,
+              5,
+              5,
+              6
+            ],
+            [
+              3,
+              4,
+              4,
+              4,
+              4,
+              4,
+              5,
+              6
+            ]
+          ]
+        },
+        {
+          "rank": 30,
+          "filename": "compressed-8acccee3-rank-30.png",
+          "retained_values": 18930,
+          "storage_percent": 19.48,
+          "compression_ratio": 0.8052,
+          "mean_absolute_error": 1.044,
+          "rmse": 1.376,
+          "quality_score": 0.9946,
+          "retained_energy_percent": 99.99,
+          "preview_matrix": [
+            [
+              7,
+              7,
+              7,
+              7,
+              7,
+              7,
+              7,
+              7
+            ],
+            [
+              7,
+              7,
+              7,
+              7,
+              7,
+              7,
+              7,
+              7
+            ],
+            [
+              7,
+              7,
+              7,
+              7,
+              7,
+              7,
+              7,
+              7
+            ],
+            [
+              5,
+              5,
+              5,
+              5,
+              6,
+              6,
+              6,
+              7
+            ],
+            [
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              6,
+              7
+            ],
+            [
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              6,
+              6
+            ],
+            [
+              4,
+              4,
+              4,
+              4,
+              5,
+              5,
+              5,
+              6
+            ],
+            [
+              3,
+              4,
+              4,
+              4,
+              4,
+              4,
+              5,
+              6
+            ]
+          ]
+        },
+        {
+          "rank": 60,
+          "filename": "compressed-8acccee3-rank-60.png",
+          "retained_values": 37860,
+          "storage_percent": 38.95,
+          "compression_ratio": 0.6105,
+          "mean_absolute_error": 0.73,
+          "rmse": 0.944,
+          "quality_score": 0.9963,
+          "retained_energy_percent": 100.0,
+          "preview_matrix": [
+            [
+              7,
+              7,
+              7,
+              7,
+              7,
+              7,
+              7,
+              7
+            ],
+            [
+              7,
+              7,
+              7,
+              7,
+              7,
+              7,
+              7,
+              7
+            ],
+            [
+              7,
+              7,
+              7,
+              7,
+              7,
+              7,
+              7,
+              7
+            ],
+            [
+              5,
+              5,
+              5,
+              5,
+              6,
+              6,
+              6,
+              7
+            ],
+            [
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              6,
+              7
+            ],
+            [
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              6,
+              6
+            ],
+            [
+              4,
+              4,
+              4,
+              4,
+              5,
+              5,
+              5,
+              6
+            ],
+            [
+              3,
+              4,
+              4,
+              4,
+              4,
+              4,
+              5,
+              6
+            ]
+          ]
+        }
+      ],
+      "features": {
+        "method": "SVD image compression",
+        "formula": "A_k = U_k * Sigma_k * V_k^T",
+        "original_width": 1108,
+        "original_height": 1477,
+        "processed_width": 270,
+        "processed_height": 360,
+        "original_values": 97200,
+        "max_rank": 270,
+        "singular_values": [
+          51988.456,
+          2936.757,
+          736.78,
+          595.19,
+          558.42,
+          499.198,
+          460.323,
+          419.934,
+          406.981,
+          383.289,
+          365.846,
+          330.477
+        ],
+        "energy_curve": [
+          {
+            "rank": 5,
+            "retained_energy_percent": 99.92
+          },
+          {
+            "rank": 15,
+            "retained_energy_percent": 99.98
+          },
+          {
+            "rank": 30,
+            "retained_energy_percent": 99.99
+          },
+          {
+            "rank": 60,
+            "retained_energy_percent": 100.0
+          }
+        ],
+        "variants": [
+          {
+            "rank": 5,
+            "filename": "compressed-8acccee3-rank-5.png",
+            "retained_values": 3155,
+            "storage_percent": 3.25,
+            "compression_ratio": 0.9675,
+            "mean_absolute_error": 1.973,
+            "rmse": 4.607,
+            "quality_score": 0.9819,
+            "retained_energy_percent": 99.92,
+            "preview_matrix": [
+              [
+                7,
+                7,
+                7,
+                7,
+                7,
+                7,
+                7,
+                7
+              ],
+              [
+                7,
+                7,
+                7,
+                7,
+                7,
+                7,
+                7,
+                7
+              ],
+              [
+                7,
+                7,
+                7,
+                7,
+                7,
+                7,
+                7,
+                7
+              ],
+              [
+                5,
+                5,
+                5,
+                5,
+                6,
+                6,
+                6,
+                7
+              ],
+              [
+                5,
+                5,
+                5,
+                5,
+                5,
+                5,
+                6,
+                7
+              ],
+              [
+                4,
+                5,
+                5,
+                5,
+                5,
+                5,
+                6,
+                6
+              ],
+              [
+                4,
+                4,
+                4,
+                4,
+                5,
+                5,
+                5,
+                6
+              ],
+              [
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                5,
+                6
+              ]
+            ]
+          },
+          {
+            "rank": 15,
+            "filename": "compressed-8acccee3-rank-15.png",
+            "retained_values": 9465,
+            "storage_percent": 9.74,
+            "compression_ratio": 0.9026,
+            "mean_absolute_error": 1.395,
+            "rmse": 2.478,
+            "quality_score": 0.9903,
+            "retained_energy_percent": 99.98,
+            "preview_matrix": [
+              [
+                7,
+                7,
+                7,
+                7,
+                7,
+                7,
+                7,
+                7
+              ],
+              [
+                7,
+                7,
+                7,
+                7,
+                7,
+                7,
+                7,
+                7
+              ],
+              [
+                7,
+                7,
+                7,
+                7,
+                7,
+                7,
+                7,
+                7
+              ],
+              [
+                5,
+                5,
+                5,
+                5,
+                6,
+                6,
+                6,
+                7
+              ],
+              [
+                5,
+                5,
+                5,
+                5,
+                5,
+                5,
+                6,
+                7
+              ],
+              [
+                5,
+                5,
+                5,
+                5,
+                5,
+                5,
+                6,
+                6
+              ],
+              [
+                4,
+                4,
+                4,
+                4,
+                5,
+                5,
+                5,
+                6
+              ],
+              [
+                3,
+                4,
+                4,
+                4,
+                4,
+                4,
+                5,
+                6
+              ]
+            ]
+          },
+          {
+            "rank": 30,
+            "filename": "compressed-8acccee3-rank-30.png",
+            "retained_values": 18930,
+            "storage_percent": 19.48,
+            "compression_ratio": 0.8052,
+            "mean_absolute_error": 1.044,
+            "rmse": 1.376,
+            "quality_score": 0.9946,
+            "retained_energy_percent": 99.99,
+            "preview_matrix": [
+              [
+                7,
+                7,
+                7,
+                7,
+                7,
+                7,
+                7,
+                7
+              ],
+              [
+                7,
+                7,
+                7,
+                7,
+                7,
+                7,
+                7,
+                7
+              ],
+              [
+                7,
+                7,
+                7,
+                7,
+                7,
+                7,
+                7,
+                7
+              ],
+              [
+                5,
+                5,
+                5,
+                5,
+                6,
+                6,
+                6,
+                7
+              ],
+              [
+                5,
+                5,
+                5,
+                5,
+                5,
+                5,
+                6,
+                7
+              ],
+              [
+                5,
+                5,
+                5,
+                5,
+                5,
+                5,
+                6,
+                6
+              ],
+              [
+                4,
+                4,
+                4,
+                4,
+                5,
+                5,
+                5,
+                6
+              ],
+              [
+                3,
+                4,
+                4,
+                4,
+                4,
+                4,
+                5,
+                6
+              ]
+            ]
+          },
+          {
+            "rank": 60,
+            "filename": "compressed-8acccee3-rank-60.png",
+            "retained_values": 37860,
+            "storage_percent": 38.95,
+            "compression_ratio": 0.6105,
+            "mean_absolute_error": 0.73,
+            "rmse": 0.944,
+            "quality_score": 0.9963,
+            "retained_energy_percent": 100.0,
+            "preview_matrix": [
+              [
+                7,
+                7,
+                7,
+                7,
+                7,
+                7,
+                7,
+                7
+              ],
+              [
+                7,
+                7,
+                7,
+                7,
+                7,
+                7,
+                7,
+                7
+              ],
+              [
+                7,
+                7,
+                7,
+                7,
+                7,
+                7,
+                7,
+                7
+              ],
+              [
+                5,
+                5,
+                5,
+                5,
+                6,
+                6,
+                6,
+                7
+              ],
+              [
+                5,
+                5,
+                5,
+                5,
+                5,
+                5,
+                6,
+                7
+              ],
+              [
+                5,
+                5,
+                5,
+                5,
+                5,
+                5,
+                6,
+                6
+              ],
+              [
+                4,
+                4,
+                4,
+                4,
+                5,
+                5,
+                5,
+                6
+              ],
+              [
+                3,
+                4,
+                4,
+                4,
+                4,
+                4,
+                5,
+                6
+              ]
+            ]
+          }
+        ],
+        "default_variant": {
+          "rank": 15,
+          "filename": "compressed-8acccee3-rank-15.png",
+          "retained_values": 9465,
+          "storage_percent": 9.74,
+          "compression_ratio": 0.9026,
+          "mean_absolute_error": 1.395,
+          "rmse": 2.478,
+          "quality_score": 0.9903,
+          "retained_energy_percent": 99.98,
+          "preview_matrix": [
+            [
+              7,
+              7,
+              7,
+              7,
+              7,
+              7,
+              7,
+              7
+            ],
+            [
+              7,
+              7,
+              7,
+              7,
+              7,
+              7,
+              7,
+              7
+            ],
+            [
+              7,
+              7,
+              7,
+              7,
+              7,
+              7,
+              7,
+              7
+            ],
+            [
+              5,
+              5,
+              5,
+              5,
+              6,
+              6,
+              6,
+              7
+            ],
+            [
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              6,
+              7
+            ],
+            [
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              6,
+              6
+            ],
+            [
+              4,
+              4,
+              4,
+              4,
+              5,
+              5,
+              5,
+              6
+            ],
+            [
+              3,
+              4,
+              4,
+              4,
+              4,
+              4,
+              5,
+              6
+            ]
+          ]
+        }
+      },
+      "created_at": "2026-06-30T16:54:43.269035+00:00",
+      "status": "processed"
+    },
+    {
+      "id": "f77d21ab",
+      "image_name": "a24325bb-6.jpg",
+      "result_label": "Rank 15",
+      "quality_score": 0.9752,
+      "variants": [
+        {
+          "rank": 5,
+          "filename": "compressed-38ebf96c-rank-5.png",
+          "retained_values": 2255,
+          "storage_percent": 4.45,
+          "compression_ratio": 0.9555,
+          "mean_absolute_error": 6.77,
+          "rmse": 12.946,
+          "quality_score": 0.9492,
+          "retained_energy_percent": 99.7,
+          "preview_matrix": [
+            [
+              9,
+              9,
+              9,
+              9,
+              9,
+              9,
+              9,
+              9
+            ],
+            [
+              9,
+              9,
+              9,
+              8,
+              6,
+              8,
+              9,
+              9
+            ],
+            [
+              9,
+              9,
+              9,
+              7,
+              6,
+              8,
+              9,
+              9
+            ],
+            [
+              9,
+              9,
+              8,
+              6,
+              6,
+              7,
+              9,
+              9
+            ],
+            [
+              9,
+              9,
+              6,
+              6,
+              7,
+              6,
+              8,
+              9
+            ],
+            [
+              9,
+              9,
+              6,
+              6,
+              7,
+              6,
+              8,
+              9
+            ],
+            [
+              9,
+              9,
+              7,
+              6,
+              6,
+              7,
+              9,
+              9
+            ],
+            [
+              9,
+              9,
+              9,
+              8,
+              8,
+              9,
+              9,
+              9
+            ]
+          ]
+        },
+        {
+          "rank": 15,
+          "filename": "compressed-38ebf96c-rank-15.png",
+          "retained_values": 6765,
+          "storage_percent": 13.36,
+          "compression_ratio": 0.8664,
+          "mean_absolute_error": 2.712,
+          "rmse": 6.325,
+          "quality_score": 0.9752,
+          "retained_energy_percent": 99.93,
+          "preview_matrix": [
+            [
+              9,
+              9,
+              9,
+              9,
+              9,
+              9,
+              9,
+              9
+            ],
+            [
+              9,
+              9,
+              9,
+              8,
+              6,
+              8,
+              9,
+              9
+            ],
+            [
+              9,
+              9,
+              8,
+              7,
+              6,
+              9,
+              9,
+              9
+            ],
+            [
+              9,
+              9,
+              8,
+              6,
+              6,
+              7,
+              9,
+              9
+            ],
+            [
+              9,
+              9,
+              6,
+              6,
+              7,
+              6,
+              8,
+              9
+            ],
+            [
+              9,
+              9,
+              6,
+              6,
+              7,
+              6,
+              8,
+              9
+            ],
+            [
+              9,
+              9,
+              7,
+              6,
+              6,
+              7,
+              9,
+              9
+            ],
+            [
+              9,
+              9,
+              9,
+              8,
+              8,
+              9,
+              9,
+              9
+            ]
+          ]
+        },
+        {
+          "rank": 30,
+          "filename": "compressed-38ebf96c-rank-30.png",
+          "retained_values": 13530,
+          "storage_percent": 26.73,
+          "compression_ratio": 0.7327,
+          "mean_absolute_error": 1.44,
+          "rmse": 3.659,
+          "quality_score": 0.9856,
+          "retained_energy_percent": 99.98,
+          "preview_matrix": [
+            [
+              9,
+              9,
+              9,
+              9,
+              9,
+              9,
+              9,
+              9
+            ],
+            [
+              9,
+              9,
+              9,
+              8,
+              6,
+              8,
+              9,
+              9
+            ],
+            [
+              9,
+              9,
+              9,
+              7,
+              6,
+              9,
+              9,
+              9
+            ],
+            [
+              9,
+              9,
+              8,
+              6,
+              6,
+              7,
+              9,
+              9
+            ],
+            [
+              9,
+              9,
+              6,
+              6,
+              7,
+              6,
+              8,
+              9
+            ],
+            [
+              9,
+              9,
+              6,
+              6,
+              7,
+              6,
+              8,
+              9
+            ],
+            [
+              9,
+              9,
+              7,
+              6,
+              6,
+              7,
+              9,
+              9
+            ],
+            [
+              9,
+              9,
+              9,
+              8,
+              8,
+              9,
+              9,
+              9
+            ]
+          ]
+        },
+        {
+          "rank": 60,
+          "filename": "compressed-38ebf96c-rank-60.png",
+          "retained_values": 27060,
+          "storage_percent": 53.45,
+          "compression_ratio": 0.4655,
+          "mean_absolute_error": 0.614,
+          "rmse": 1.544,
+          "quality_score": 0.9939,
+          "retained_energy_percent": 100.0,
+          "preview_matrix": [
+            [
+              9,
+              9,
+              9,
+              9,
+              9,
+              9,
+              9,
+              9
+            ],
+            [
+              9,
+              9,
+              9,
+              8,
+              6,
+              8,
+              9,
+              9
+            ],
+            [
+              9,
+              9,
+              9,
+              7,
+              6,
+              9,
+              9,
+              9
+            ],
+            [
+              9,
+              9,
+              8,
+              6,
+              6,
+              7,
+              9,
+              9
+            ],
+            [
+              9,
+              9,
+              6,
+              6,
+              7,
+              6,
+              8,
+              9
+            ],
+            [
+              9,
+              9,
+              6,
+              6,
+              7,
+              6,
+              8,
+              9
+            ],
+            [
+              9,
+              9,
+              7,
+              6,
+              6,
+              7,
+              9,
+              9
+            ],
+            [
+              9,
+              9,
+              9,
+              8,
+              8,
+              9,
+              9,
+              9
+            ]
+          ]
+        }
+      ],
+      "features": {
+        "method": "SVD image compression",
+        "formula": "A_k = U_k * Sigma_k * V_k^T",
+        "original_width": 225,
+        "original_height": 225,
+        "processed_width": 225,
+        "processed_height": 225,
+        "original_values": 50625,
+        "max_rank": 225,
+        "singular_values": [
+          52292.758,
+          4268.642,
+          4239.998,
+          2275.193,
+          1550.478,
+          1283.89,
+          1121.07,
+          965.404,
+          779.293,
+          710.307,
+          637.587,
+          597.372
+        ],
+        "energy_curve": [
+          {
+            "rank": 5,
+            "retained_energy_percent": 99.7
+          },
+          {
+            "rank": 15,
+            "retained_energy_percent": 99.93
+          },
+          {
+            "rank": 30,
+            "retained_energy_percent": 99.98
+          },
+          {
+            "rank": 60,
+            "retained_energy_percent": 100.0
+          }
+        ],
+        "variants": [
+          {
+            "rank": 5,
+            "filename": "compressed-38ebf96c-rank-5.png",
+            "retained_values": 2255,
+            "storage_percent": 4.45,
+            "compression_ratio": 0.9555,
+            "mean_absolute_error": 6.77,
+            "rmse": 12.946,
+            "quality_score": 0.9492,
+            "retained_energy_percent": 99.7,
+            "preview_matrix": [
+              [
+                9,
+                9,
+                9,
+                9,
+                9,
+                9,
+                9,
+                9
+              ],
+              [
+                9,
+                9,
+                9,
+                8,
+                6,
+                8,
+                9,
+                9
+              ],
+              [
+                9,
+                9,
+                9,
+                7,
+                6,
+                8,
+                9,
+                9
+              ],
+              [
+                9,
+                9,
+                8,
+                6,
+                6,
+                7,
+                9,
+                9
+              ],
+              [
+                9,
+                9,
+                6,
+                6,
+                7,
+                6,
+                8,
+                9
+              ],
+              [
+                9,
+                9,
+                6,
+                6,
+                7,
+                6,
+                8,
+                9
+              ],
+              [
+                9,
+                9,
+                7,
+                6,
+                6,
+                7,
+                9,
+                9
+              ],
+              [
+                9,
+                9,
+                9,
+                8,
+                8,
+                9,
+                9,
+                9
+              ]
+            ]
+          },
+          {
+            "rank": 15,
+            "filename": "compressed-38ebf96c-rank-15.png",
+            "retained_values": 6765,
+            "storage_percent": 13.36,
+            "compression_ratio": 0.8664,
+            "mean_absolute_error": 2.712,
+            "rmse": 6.325,
+            "quality_score": 0.9752,
+            "retained_energy_percent": 99.93,
+            "preview_matrix": [
+              [
+                9,
+                9,
+                9,
+                9,
+                9,
+                9,
+                9,
+                9
+              ],
+              [
+                9,
+                9,
+                9,
+                8,
+                6,
+                8,
+                9,
+                9
+              ],
+              [
+                9,
+                9,
+                8,
+                7,
+                6,
+                9,
+                9,
+                9
+              ],
+              [
+                9,
+                9,
+                8,
+                6,
+                6,
+                7,
+                9,
+                9
+              ],
+              [
+                9,
+                9,
+                6,
+                6,
+                7,
+                6,
+                8,
+                9
+              ],
+              [
+                9,
+                9,
+                6,
+                6,
+                7,
+                6,
+                8,
+                9
+              ],
+              [
+                9,
+                9,
+                7,
+                6,
+                6,
+                7,
+                9,
+                9
+              ],
+              [
+                9,
+                9,
+                9,
+                8,
+                8,
+                9,
+                9,
+                9
+              ]
+            ]
+          },
+          {
+            "rank": 30,
+            "filename": "compressed-38ebf96c-rank-30.png",
+            "retained_values": 13530,
+            "storage_percent": 26.73,
+            "compression_ratio": 0.7327,
+            "mean_absolute_error": 1.44,
+            "rmse": 3.659,
+            "quality_score": 0.9856,
+            "retained_energy_percent": 99.98,
+            "preview_matrix": [
+              [
+                9,
+                9,
+                9,
+                9,
+                9,
+                9,
+                9,
+                9
+              ],
+              [
+                9,
+                9,
+                9,
+                8,
+                6,
+                8,
+                9,
+                9
+              ],
+              [
+                9,
+                9,
+                9,
+                7,
+                6,
+                9,
+                9,
+                9
+              ],
+              [
+                9,
+                9,
+                8,
+                6,
+                6,
+                7,
+                9,
+                9
+              ],
+              [
+                9,
+                9,
+                6,
+                6,
+                7,
+                6,
+                8,
+                9
+              ],
+              [
+                9,
+                9,
+                6,
+                6,
+                7,
+                6,
+                8,
+                9
+              ],
+              [
+                9,
+                9,
+                7,
+                6,
+                6,
+                7,
+                9,
+                9
+              ],
+              [
+                9,
+                9,
+                9,
+                8,
+                8,
+                9,
+                9,
+                9
+              ]
+            ]
+          },
+          {
+            "rank": 60,
+            "filename": "compressed-38ebf96c-rank-60.png",
+            "retained_values": 27060,
+            "storage_percent": 53.45,
+            "compression_ratio": 0.4655,
+            "mean_absolute_error": 0.614,
+            "rmse": 1.544,
+            "quality_score": 0.9939,
+            "retained_energy_percent": 100.0,
+            "preview_matrix": [
+              [
+                9,
+                9,
+                9,
+                9,
+                9,
+                9,
+                9,
+                9
+              ],
+              [
+                9,
+                9,
+                9,
+                8,
+                6,
+                8,
+                9,
+                9
+              ],
+              [
+                9,
+                9,
+                9,
+                7,
+                6,
+                9,
+                9,
+                9
+              ],
+              [
+                9,
+                9,
+                8,
+                6,
+                6,
+                7,
+                9,
+                9
+              ],
+              [
+                9,
+                9,
+                6,
+                6,
+                7,
+                6,
+                8,
+                9
+              ],
+              [
+                9,
+                9,
+                6,
+                6,
+                7,
+                6,
+                8,
+                9
+              ],
+              [
+                9,
+                9,
+                7,
+                6,
+                6,
+                7,
+                9,
+                9
+              ],
+              [
+                9,
+                9,
+                9,
+                8,
+                8,
+                9,
+                9,
+                9
+              ]
+            ]
+          }
+        ],
+        "default_variant": {
+          "rank": 15,
+          "filename": "compressed-38ebf96c-rank-15.png",
+          "retained_values": 6765,
+          "storage_percent": 13.36,
+          "compression_ratio": 0.8664,
+          "mean_absolute_error": 2.712,
+          "rmse": 6.325,
+          "quality_score": 0.9752,
+          "retained_energy_percent": 99.93,
+          "preview_matrix": [
+            [
+              9,
+              9,
+              9,
+              9,
+              9,
+              9,
+              9,
+              9
+            ],
+            [
+              9,
+              9,
+              9,
+              8,
+              6,
+              8,
+              9,
+              9
+            ],
+            [
+              9,
+              9,
+              8,
+              7,
+              6,
+              9,
+              9,
+              9
+            ],
+            [
+              9,
+              9,
+              8,
+              6,
+              6,
+              7,
+              9,
+              9
+            ],
+            [
+              9,
+              9,
+              6,
+              6,
+              7,
+              6,
+              8,
+              9
+            ],
+            [
+              9,
+              9,
+              6,
+              6,
+              7,
+              6,
+              8,
+              9
+            ],
+            [
+              9,
+              9,
+              7,
+              6,
+              6,
+              7,
+              9,
+              9
+            ],
+            [
+              9,
+              9,
+              9,
+              8,
+              8,
+              9,
+              9,
+              9
+            ]
+          ]
+        }
+      },
+      "created_at": "2026-06-30T16:58:18.614742+00:00",
+      "status": "processed"
+    }
+  ]
+}
